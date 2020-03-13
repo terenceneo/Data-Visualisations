@@ -1,10 +1,11 @@
 <?xml version='1.0' encoding='utf-8' ?>
 
 <!-- build 20183.19.0319.0943                               -->
-<workbook source-build='2018.3.5 (20183.19.0319.0943)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+<workbook source-build='2018.3.5 (20183.19.0319.0943)' source-platform='win' version='18.1' xml:base='https://public.tableau.com' xmlns:user='http://www.tableausoftware.com/xml/user'>
   <document-format-change-manifest>
     <WindowsPersistSimpleIdentifiers />
   </document-format-change-manifest>
+  <repository-location id='CoronavirusInUK' path='/workbooks' revision='1.2' />
   <preferences>
     <preference name='ui.encoding.shelf.height' value='24' />
     <preference name='ui.shelf.height' value='26' />
@@ -14,7 +15,7 @@
       <connection class='federated'>
         <named-connections>
           <named-connection caption='CountyUAs_cases_table' name='textscan.0mf5tjw09wk6zm1cfwqqc19hsrwu'>
-            <connection class='textscan' directory='C:/Users/Terence Neo/Documents/My Documents/School/University/CCA/Data-Visualisations/Coronavirus Map' filename='CountyUAs_cases_table.csv' password='' server='' />
+            <connection class='textscan' directory='C:/Users/Terence Neo/Documents/My Documents/School/University/CCA/Data-Visualisations/Coronavirus Map' filename='CountyUAs_cases_table.csv' password='' server='' workgroup-auth-mode='as-is' />
           </named-connection>
         </named-connections>
         <relation all='true' name='Union' type='union'>
@@ -226,7 +227,7 @@
     <mapsource name='Tableau' />
   </mapsources>
   <worksheets>
-    <worksheet name='Sheet 1'>
+    <worksheet name='Map'>
       <table>
         <view>
           <datasources>
@@ -287,8 +288,8 @@
         </view>
         <style>
           <style-rule element='axis'>
-            <encoding attr='space' class='0' field='[federated.057d8jo02oxl8f14ed53l16nlkxf].[Longitude (generated)]' field-type='quantitative' max='12051.416027627653' min='-868391.15330281493' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
-            <encoding attr='space' class='0' field='[federated.057d8jo02oxl8f14ed53l16nlkxf].[Latitude (generated)]' field-type='quantitative' max='7063530.6732455427' min='6539197.6294755517' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+            <encoding attr='space' class='0' field='[federated.057d8jo02oxl8f14ed53l16nlkxf].[Longitude (generated)]' field-type='quantitative' max='447851.41360393725' min='-736209.58548054879' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.057d8jo02oxl8f14ed53l16nlkxf].[Latitude (generated)]' field-type='quantitative' max='7360650.0773887653' min='6307344.2806571666' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
           </style-rule>
           <style-rule element='mark'>
             <encoding attr='color' center='1' field='[federated.057d8jo02oxl8f14ed53l16nlkxf].[sum:Number of confirmed cases:qk]' min='0' num-steps='18' symmetric='false' type='custom-interpolated'>
@@ -355,8 +356,77 @@
       </table>
     </worksheet>
   </worksheets>
+  <dashboards>
+    <dashboard name='Dashboard'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='2' type='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='5' param='horz' type='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='98000' id='3' type='layout-basic' w='82400' x='800' y='1000'>
+              <zone h='98000' id='1' name='Map' w='82400' x='800' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='160' h='98000' id='4' is-fixed='true' param='vert' type='layout-flow' w='16000' x='83200' y='1000'>
+              <zone h='9125' id='6' name='Map' pane-specification-id='0' param='[federated.057d8jo02oxl8f14ed53l16nlkxf].[sum:Number of confirmed cases:qk]' type='color' w='16000' x='83200' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='6250' id='7' type='text' w='16000' x='83200' y='10125'>
+                <formatted-text>
+                  <run>Shift-click to move around map&#10;</run>
+                </formatted-text>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='22000' id='8' type='text' w='16000' x='83200' y='16375'>
+                <formatted-text>
+                  <run>PS. London data not included, to avoid skewing colours&#10;&#10;Datasets CAA:&#10;England: 13/3/20&#10;Scotland: 11/3/20&#10;Wales: 11/3/20</run>
+                </formatted-text>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+    </dashboard>
+  </dashboards>
   <windows saved-dpi-scale-factor='1.25' source-height='37'>
-    <window class='worksheet' maximized='true' name='Sheet 1'>
+    <window class='dashboard' maximized='true' name='Dashboard'>
+      <viewpoints>
+        <viewpoint name='Map'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{39477DD4-BE6D-47CF-9D6C-ACDC150D76EB}' />
+    </window>
+    <window class='worksheet' name='Map'>
       <cards>
         <edge name='left'>
           <strip size='160'>
