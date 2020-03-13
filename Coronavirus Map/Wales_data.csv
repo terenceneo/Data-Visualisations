@@ -1,7 +1,14 @@
-﻿City,Number of confirmed cases
-Cardiff,2
-Swansea,2
-Pembrokeshire,2
-Neath Port Talbot,6
-Carmarthenshire,2
-Newport,1
+﻿City,11-Mar,12-Mar,Number of confirmed cases
+Cardiff,2,3,4
+Swansea,2,3,5
+Pembrokeshire,2,2,2
+Neath Port Talbot,6,8,8
+Carmarthenshire,2,2,3
+Newport,1,1,2
+Wrexham,,1,1
+Powys,,2,3
+Monmouthshire,,1,2
+Caerphilly,,1,5
+Blaenau Gwent,,1,1
+Anglesey ,,,1
+Flintshire,,,1
