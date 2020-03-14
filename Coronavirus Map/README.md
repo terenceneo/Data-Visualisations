@@ -35,11 +35,11 @@ Furthermore, some frontend is required to allow the visualisations to be easily 
 
 Interactive website [here](https://terenceneo.github.io/Data-Visualisations/VirusinUK.html)
 
-UK Situation at 11/03/20:            | UK Situation at 13/03/20
+UK Situation at 11/03/20:            | UK Situation at 14/03/20
 :--------------------------------:|:--------------------------------:
-![110320 map](Images/Tab_map_110320.png) | ![130320 map](Images/Tab_map_130320.png)
+![110320 map](Images/Tab_map_110320.png){width=200px} | ![140320 map](Images/Tab_map_140320.png){width=200px}
 London Situation at 13/03/20 | London Situation at 14/04/20
-![130320 london](Images/london_130320.png) | ![140320 london](Images/london_140320.png)
+![130320 london](Images/london_130320.png){width=200px} | ![140320 london](Images/london_140320.png){width=200px}
 
 ## Extra Features
 
