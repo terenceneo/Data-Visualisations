@@ -1,33 +1,33 @@
-﻿Boroughs,Number of confirmed cases
-Barking and Dagenham,
-Barnet,
-Bexley,
-Brent,
-Bromley,
-Camden,
-Croydon,
-Ealing,
-Enfield,
-Greenwich,
-Hackney,
-Hammersmith and Fulham,
-Haringey,
-Harrow,
-Havering,
-Hillingdon,
-Hounslow,
-Islington,
-Kensington and Chelsea,
-Kingston upon Thames,
-Lambeth,
-Lewisham,
-Merton,
-Newham,
-Redbridge,
-Richmond upon Thames,
-Southwark,
-Sutton,
-Tower Hamlets,
-Waltham Forest,
-Wandsworth,
-Westminster,
+,Boroughs,Number of confirmed cases
+0,Barking and Dagenham,4.0
+1,Barnet,14.0
+2,Bexley,1.0
+3,Brent,4.0
+4,Bromley,4.0
+5,Camden,13.0
+6,Croydon,1.0
+7,Ealing,8.0
+8,Enfield,2.0
+9,Greenwich,1.0
+10,Hackney,5.0
+11,Hammersmith and Fulham,5.0
+12,Haringey,3.0
+13,Harrow,2.0
+14,Havering,1.0
+15,Hillingdon,4.0
+16,Hounslow,5.0
+17,Islington,1.0
+18,Kensington and Chelsea,21.0
+19,Kingston upon Thames,2.0
+20,Lambeth,9.0
+21,Lewisham,5.0
+22,Merton,4.0
+23,Newham,0.0
+24,Redbridge,1.0
+25,Richmond upon Thames,1.0
+26,Southwark,13.0
+27,Sutton,6.0
+28,Tower Hamlets,6.0
+29,Waltham Forest,1.0
+30,Wandsworth,7.0
+31,Westminster,13.0

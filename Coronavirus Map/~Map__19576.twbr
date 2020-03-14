@@ -1,0 +1,490 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20183.19.0319.0943                               -->
+<workbook source-build='2018.3.5 (20183.19.0319.0943)' source-platform='win' version='18.1' xml:base='https://public.tableau.com' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <repository-location id='CoronavirusInUK' path='/workbooks' revision='1.3' />
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='UK_Data' inline='true' name='federated.057d8jo02oxl8f14ed53l16nlkxf' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='CountyUAs_cases_table' name='textscan.0mf5tjw09wk6zm1cfwqqc19hsrwu'>
+            <connection class='textscan' directory='C:/Users/Terence Neo/Documents/My Documents/School/University/CCA/Data-Visualisations/Coronavirus Map' filename='CountyUAs_cases_table.csv' password='' server='' workgroup-auth-mode='as-is' />
+          </named-connection>
+        </named-connections>
+        <relation all='true' name='Union' type='union'>
+          <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+            <column datatype='string' name='City' />
+            <column datatype='integer' name='Number of confirmed cases' />
+            <column datatype='integer' name='FID' />
+            <column datatype='string' name='GSS_CD' />
+            <column datatype='string' name='Table Name' />
+          </columns>
+          <relation connection='textscan.0mf5tjw09wk6zm1cfwqqc19hsrwu' name='Scotland_data.csv' table='[Scotland_data#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+              <column datatype='string' name='City' ordinal='0' />
+              <column datatype='integer' name='11-Mar' ordinal='1' />
+              <column datatype='integer' name='Number of confirmed cases' ordinal='2' />
+            </columns>
+          </relation>
+          <relation connection='textscan.0mf5tjw09wk6zm1cfwqqc19hsrwu' name='Wales_data.csv' table='[Wales_data#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+              <column datatype='string' name='City' ordinal='0' />
+              <column datatype='integer' name='11-Mar' ordinal='1' />
+              <column datatype='integer' name='12-Mar' ordinal='2' />
+              <column datatype='integer' name='Number of confirmed cases' ordinal='3' />
+            </columns>
+          </relation>
+          <relation connection='textscan.0mf5tjw09wk6zm1cfwqqc19hsrwu' name='CountyUAs_cases_table.csv' table='[CountyUAs_cases_table#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+              <column datatype='string' name='GSS_CD' ordinal='0' />
+              <column datatype='string' name='City' ordinal='1' />
+              <column datatype='integer' name='Number of confirmed cases' ordinal='2' />
+            </columns>
+          </relation>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Union]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>City</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[City]</local-name>
+            <parent-name>[Union]</parent-name>
+            <remote-alias>City</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>11-Mar</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[11-Mar]</local-name>
+            <parent-name>[Union]</parent-name>
+            <remote-alias>11-Mar</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Number of confirmed cases</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Number of confirmed cases]</local-name>
+            <parent-name>[Union]</parent-name>
+            <remote-alias>Number of confirmed cases</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>12-Mar</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[12-Mar]</local-name>
+            <parent-name>[Union]</parent-name>
+            <remote-alias>12-Mar</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GSS_CD</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[GSS_CD]</local-name>
+            <parent-name>[Union]</parent-name>
+            <remote-alias>GSS_CD</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Table Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Table Name]</local-name>
+            <parent-name>[Union]</parent-name>
+            <remote-alias>Table Name</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[City]' role='dimension' semantic-role='[County].[Name]' type='nominal'>
+        <semantic-values semantic-role='[City].[Name]'>
+          <semantic-value key='&quot;Barking and Dagenham&quot;' value='&quot;Barking&quot;' />
+          <semantic-value key='&quot;Bath and North East Somerset&quot;' value='&quot;Bath&quot;' />
+          <semantic-value key='&quot;Blackburn with Darwen&quot;' value='&quot;Blackburn&quot;' />
+          <semantic-value key='&quot;Bournemouth, Christchurch and Poole&quot;' value='&quot;Bournemouth&quot;' />
+          <semantic-value key='&quot;Bracknell Forest&quot;' value='&quot;Bracknell&quot;' />
+          <semantic-value key='&quot;Brent&quot;' value='&quot;Brentford&quot;' />
+          <semantic-value key='&quot;Brighton and Hove&quot;' value='&quot;Brighton&quot;' />
+          <semantic-value key='&quot;Bristol, City of&quot;' value='&quot;Bristol&quot;' />
+          <semantic-value key='&quot;Buckinghamshire&quot;' value='&quot;Buckingham&quot;' />
+          <semantic-value key='&quot;Cambridgeshire&quot;' value='&quot;Cambridge&quot;' />
+          <semantic-value key='&quot;Camden&quot;' value='&quot;Camden Town&quot;' />
+          <semantic-value key='&quot;Central Bedfordshire&quot;' value='&quot;Bedford&quot;' />
+          <semantic-value key='&quot;Cheshire West and Chester&quot;' value='&quot;Chester&quot;' />
+          <semantic-value key='&quot;County Durham&quot;' value='&quot;Durham&quot;' />
+          <semantic-value key='&quot;Derbyshire&quot;' value='&quot;Derby&quot;' />
+          <semantic-value key='&quot;East Riding of Yorkshire&quot;' value='&quot;York&quot;' />
+          <semantic-value key='&quot;Gloucestershire&quot;' value='&quot;Gloucester&quot;' />
+        </semantic-values>
+        <semantic-values semantic-role='[County].[Name]'>
+          <semantic-value key='&quot;Anglesey&quot;' value='&quot;Isle of Anglesey&quot;' />
+          <semantic-value key='&quot;Ayrshire and Arran&quot;' value='&quot;East Ayrshire&quot;' />
+          <semantic-value key='&quot;Borders&quot;' value='&quot;Scottish Borders&quot;' />
+          <semantic-value key='&quot;Bournemouth, Christchurch and Poole&quot;' value='&quot;Bournemouth&quot;' />
+          <semantic-value key='&quot;Bristol, City of&quot;' value='&quot;Bristol&quot;' />
+          <semantic-value key='&quot;Cornwall and Isles of Scilly&quot;' value='&quot;Cornwall&quot;' />
+          <semantic-value key='&quot;Forth Valley&quot;' value='&quot;Stirling&quot;' />
+          <semantic-value key='&quot;Grampian&quot;' value='&quot;Aberdeenshire&quot;' />
+          <semantic-value key='&quot;Greater Glasgow and Clyde&quot;' value='&quot;Glasgow&quot;' />
+          <semantic-value key='&quot;Herefordshire, County of&quot;' value='&quot;Herefordshire&quot;' />
+          <semantic-value key='&quot;Kingston upon Hull, City of&quot;' value='&quot;Kingston upon Hull&quot;' />
+          <semantic-value key='&quot;Lanarkshire&quot;' value='&quot;South Lanarkshire&quot;' />
+          <semantic-value key='&quot;Lothian&quot;' value='&quot;Edinburgh&quot;' />
+          <semantic-value key='&quot;Tayside&quot;' value='&quot;Dundee&quot;' />
+        </semantic-values>
+      </column>
+      <column datatype='string' name='[GSS_CD]' role='dimension' semantic-role='' type='nominal' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column datatype='string' name='[Table Name]' role='dimension' semantic-role='[State].[Name]' type='nominal'>
+        <semantic-values semantic-role='[State].[Name]'>
+          <semantic-value key='&quot;CountyUAs_cases_table.csv&quot;' value='&quot;England&quot;' />
+          <semantic-value key='&quot;Scotland_data.csv&quot;' value='&quot;Scotland&quot;' />
+          <semantic-value key='&quot;Wales_data.csv&quot;' value='&quot;Wales&quot;' />
+        </semantic-values>
+      </column>
+      <extract count='-1' enabled='false' units='records'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='C:/Users/Terence Neo/Documents/My Documents/School/University/CCA/Data-Visualisations/Coronavirus Map/UK_Data.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='03/13/2020 06:37:56 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <refresh>
+            <refresh-event add-from-file-path='' increment-value='%null%' refresh-type='create' rows-inserted='165' timestamp-start='2020-03-13 18:37:56.988' />
+          </refresh>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>City</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[City]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>City</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Union</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>165</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Number of confirmed cases</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Number of confirmed cases]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Number of confirmed cases</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Union</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>17</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>GSS_CD</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[GSS_CD]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>GSS_CD</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Union</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>150</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Table Name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Table Name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Table Name</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Union</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' dim-percentage='0.446429' measure-ordering='alphabetic' measure-percentage='0.553571' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[City].[Name]' value='%null%' />
+        <semantic-value key='[Country].[Name]' value='&quot;United Kingdom&quot;' />
+        <semantic-value key='[County].[Name]' value='%null%' />
+        <semantic-value key='[State].[Name]' value='&quot;Wales&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Map'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='UK_Data' name='federated.057d8jo02oxl8f14ed53l16nlkxf' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.057d8jo02oxl8f14ed53l16nlkxf'>
+            <column datatype='string' name='[City]' role='dimension' semantic-role='[County].[Name]' type='nominal'>
+              <semantic-values semantic-role='[City].[Name]'>
+                <semantic-value key='&quot;Barking and Dagenham&quot;' value='&quot;Barking&quot;' />
+                <semantic-value key='&quot;Bath and North East Somerset&quot;' value='&quot;Bath&quot;' />
+                <semantic-value key='&quot;Blackburn with Darwen&quot;' value='&quot;Blackburn&quot;' />
+                <semantic-value key='&quot;Bournemouth, Christchurch and Poole&quot;' value='&quot;Bournemouth&quot;' />
+                <semantic-value key='&quot;Bracknell Forest&quot;' value='&quot;Bracknell&quot;' />
+                <semantic-value key='&quot;Brent&quot;' value='&quot;Brentford&quot;' />
+                <semantic-value key='&quot;Brighton and Hove&quot;' value='&quot;Brighton&quot;' />
+                <semantic-value key='&quot;Bristol, City of&quot;' value='&quot;Bristol&quot;' />
+                <semantic-value key='&quot;Buckinghamshire&quot;' value='&quot;Buckingham&quot;' />
+                <semantic-value key='&quot;Cambridgeshire&quot;' value='&quot;Cambridge&quot;' />
+                <semantic-value key='&quot;Camden&quot;' value='&quot;Camden Town&quot;' />
+                <semantic-value key='&quot;Central Bedfordshire&quot;' value='&quot;Bedford&quot;' />
+                <semantic-value key='&quot;Cheshire West and Chester&quot;' value='&quot;Chester&quot;' />
+                <semantic-value key='&quot;County Durham&quot;' value='&quot;Durham&quot;' />
+                <semantic-value key='&quot;Derbyshire&quot;' value='&quot;Derby&quot;' />
+                <semantic-value key='&quot;East Riding of Yorkshire&quot;' value='&quot;York&quot;' />
+                <semantic-value key='&quot;Gloucestershire&quot;' value='&quot;Gloucester&quot;' />
+              </semantic-values>
+              <semantic-values semantic-role='[County].[Name]'>
+                <semantic-value key='&quot;Anglesey&quot;' value='&quot;Isle of Anglesey&quot;' />
+                <semantic-value key='&quot;Ayrshire and Arran&quot;' value='&quot;East Ayrshire&quot;' />
+                <semantic-value key='&quot;Borders&quot;' value='&quot;Scottish Borders&quot;' />
+                <semantic-value key='&quot;Bournemouth, Christchurch and Poole&quot;' value='&quot;Bournemouth&quot;' />
+                <semantic-value key='&quot;Bristol, City of&quot;' value='&quot;Bristol&quot;' />
+                <semantic-value key='&quot;Cornwall and Isles of Scilly&quot;' value='&quot;Cornwall&quot;' />
+                <semantic-value key='&quot;Forth Valley&quot;' value='&quot;Stirling&quot;' />
+                <semantic-value key='&quot;Grampian&quot;' value='&quot;Aberdeenshire&quot;' />
+                <semantic-value key='&quot;Greater Glasgow and Clyde&quot;' value='&quot;Glasgow&quot;' />
+                <semantic-value key='&quot;Herefordshire, County of&quot;' value='&quot;Herefordshire&quot;' />
+                <semantic-value key='&quot;Kingston upon Hull, City of&quot;' value='&quot;Kingston upon Hull&quot;' />
+                <semantic-value key='&quot;Lanarkshire&quot;' value='&quot;South Lanarkshire&quot;' />
+                <semantic-value key='&quot;Lothian&quot;' value='&quot;Edinburgh&quot;' />
+                <semantic-value key='&quot;Tayside&quot;' value='&quot;Dundee&quot;' />
+              </semantic-values>
+            </column>
+            <column datatype='integer' name='[Number of confirmed cases]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Table Name]' role='dimension' semantic-role='[State].[Name]' type='nominal'>
+              <semantic-values semantic-role='[State].[Name]'>
+                <semantic-value key='&quot;CountyUAs_cases_table.csv&quot;' value='&quot;England&quot;' />
+                <semantic-value key='&quot;Scotland_data.csv&quot;' value='&quot;Scotland&quot;' />
+                <semantic-value key='&quot;Wales_data.csv&quot;' value='&quot;Wales&quot;' />
+              </semantic-values>
+            </column>
+            <column-instance column='[City]' derivation='None' name='[none:City:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Table Name]' derivation='None' name='[none:Table Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Number of confirmed cases]' derivation='Sum' name='[sum:Number of confirmed cases:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.057d8jo02oxl8f14ed53l16nlkxf].[Longitude (generated)]' field-type='quantitative' max='1343518.6488833502' min='-1617927.625301908' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.057d8jo02oxl8f14ed53l16nlkxf].[Latitude (generated)]' field-type='quantitative' max='8178461.404134904' min='6414820.9430816565' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' center='1' field='[federated.057d8jo02oxl8f14ed53l16nlkxf].[sum:Number of confirmed cases:qk]' max='25' min='0' num-steps='18' symmetric='false' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-diverging'>
+                <color>#529985</color>
+                <color>#79a163</color>
+                <color>#dbcf47</color>
+                <color>#d76b6b</color>
+                <color>#d50000</color>
+              </color-palette>
+            </encoding>
+          </style-rule>
+          <style-rule element='map-layer'>
+            <format attr='enabled' id='tab_base' value='true' />
+            <format attr='enabled' id='um_lcover' value='true' />
+            <format attr='enabled' id='tab_coastline' value='false' />
+            <format attr='enabled' id='pp2_line' value='false' />
+            <format attr='enabled' id='light_adm0_bnd' value='false' />
+            <format attr='enabled' id='light_adm0_lbl' value='false' />
+            <format attr='enabled' id='um_adm0_bnd' value='true' />
+            <format attr='enabled' id='um_adm0_lbl' value='true' />
+            <format attr='enabled' id='light_pp2_statebounds' value='false' />
+            <format attr='enabled' id='light_pp2_statelabels' value='false' />
+            <format attr='enabled' id='pp2_adminlabels' value='false' />
+            <format attr='enabled' id='pp2_statebounds' value='true' />
+            <format attr='enabled' id='pp2_statelabels' value='true' />
+            <format attr='enabled' id='countybounds' value='false' />
+            <format attr='enabled' id='countylabels' value='false' />
+            <format attr='enabled' id='zipbounds' value='false' />
+            <format attr='enabled' id='ziplabels' value='false' />
+            <format attr='enabled' id='tab_areabounds' value='false' />
+            <format attr='enabled' id='tab_arealabels' value='false' />
+            <format attr='enabled' id='tab_msabounds' value='false' />
+            <format attr='enabled' id='tab_msalabels' value='false' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Multipolygon' />
+            <encodings>
+              <color column='[federated.057d8jo02oxl8f14ed53l16nlkxf].[sum:Number of confirmed cases:qk]' />
+              <text column='[federated.057d8jo02oxl8f14ed53l16nlkxf].[sum:Number of confirmed cases:qk]' />
+              <lod column='[federated.057d8jo02oxl8f14ed53l16nlkxf].[none:City:nk]' />
+              <lod column='[federated.057d8jo02oxl8f14ed53l16nlkxf].[none:Table Name:nk]' />
+              <geometry column='[federated.057d8jo02oxl8f14ed53l16nlkxf].[Geometry (generated)]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-transparency' value='129' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.057d8jo02oxl8f14ed53l16nlkxf].[Latitude (generated)]</rows>
+        <cols>[federated.057d8jo02oxl8f14ed53l16nlkxf].[Longitude (generated)]</cols>
+      </table>
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Dashboard'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='2' type='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='5' param='horz' type='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='98000' id='3' type='layout-basic' w='82400' x='800' y='1000'>
+              <zone h='98000' id='1' name='Map' w='82400' x='800' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='160' h='98000' id='4' is-fixed='true' param='vert' type='layout-flow' w='16000' x='83200' y='1000'>
+              <zone h='9125' id='6' name='Map' pane-specification-id='0' param='[federated.057d8jo02oxl8f14ed53l16nlkxf].[sum:Number of confirmed cases:qk]' type='color' w='16000' x='83200' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='6250' id='7' type='text' w='16000' x='83200' y='10125'>
+                <formatted-text>
+                  <run>Shift-click to move around map&#10;</run>
+                </formatted-text>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='22000' id='8' type='text' w='16000' x='83200' y='16375'>
+                <formatted-text>
+                  <run>PS. London data not included, to avoid skewing colours&#10;&#10;Datasets CAA:&#10;England: 13/3/20&#10;Scotland: 11/3/20&#10;Wales: 11/3/20</run>
+                </formatted-text>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+    </dashboard>
+  </dashboards>
+  <windows source-height='37'>
+    <window class='dashboard' name='Dashboard'>
+      <viewpoints>
+        <viewpoint name='Map'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='1' />
+      <simple-id uuid='{39477DD4-BE6D-47CF-9D6C-ACDC150D76EB}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Map'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.057d8jo02oxl8f14ed53l16nlkxf].[sum:Number of confirmed cases:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{AFC5E43E-D45B-4F81-B5DD-CCB830D4C070}' />
+    </window>
+  </windows>
+</workbook>
