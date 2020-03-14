@@ -1,11 +1,12 @@
-﻿City,11-Mar,Number of confirmed cases
-Ayrshire and Arran,3,4
-Borders,2,3
-Fife,2,4
-Forth Valley,2,6
-Grampian,6,11
-Greater Glasgow and Clyde,5,21
-Lanarkshire,4,7
-Lothian,8,20
-Shetland,2,6
-Tayside,2,3
+﻿City,11-Mar,13-Mar,Number of confirmed cases
+Ayrshire and Arran,3,4,6
+Borders,2,3,5
+Fife,2,4,6
+Forth Valley,2,6,6
+Grampian,6,11,9
+Greater Glasgow and Clyde,5,21,31
+Highland,,,1
+Lanarkshire,4,7,10
+Lothian,8,20,25
+Shetland,2,6,11
+Tayside,2,3,11
