@@ -39,9 +39,12 @@ UK Situation at 11/03/20:            | UK Situation at 14/03/20
 :--------------------------------:|:--------------------------------:
 ![110320 map](Images/Tab_map_110320.png)| ![140320 map](Images/Tab_map_140320.png)
 
-London Situation at 13/03/20 | London Situation at 14/04/20
-:--------------------------------:|:--------------------------------:
-![130320 london](Images/london_130320.png) | ![140320 london](Images/london_140320.png)
+**London Situation at 13/03/20**
+![130320 london](Images/london_130320.png)
+
+**London Situation at 14/04/20**
+![140320 london](Images/london_140320.png)
+
 ## Extra Features
 
 - Included a more detailed breakdown for London which is not only the epicenter of the outbreak in the UK, but also a major transportation hub.
