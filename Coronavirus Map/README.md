@@ -18,7 +18,9 @@ https://www.walesonline.co.uk/news/wales-news/coronavirus-covid-19-advice-guidan
 
 Interactive website [here](https://terenceneo.github.io/Data-Visualisations/VirusinUK.html)
 
-![Tableau map](Tab_map.png)
+Situation at 11/03/20:            | Situation at 13/03/20
+:--------------------------------:|:-------------------------:
+![110320 map](Tab_map_110320.png) | ![130320 map](Tab_map_130320.png)
 
 ## Improvements in Progress
 
