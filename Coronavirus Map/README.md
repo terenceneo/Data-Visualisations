@@ -4,7 +4,7 @@ A virus with wanderlust
 
 ## Problem
 
-![Boris](Images\boris.png)
+![Boris](Images/boris.png)
 
 With the UK government moving from the "containment" to the "delay" phase of its response to the Covid-19 outbreak, and the University doubling it's number of confirmed cases overnight, it is time we took the Coronavirus situation more seriously. Furthermore, many students will be looking at possible travel destinations in the upcoming Easter vacations.
 
@@ -37,9 +37,9 @@ Interactive website [here](https://terenceneo.github.io/Data-Visualisations/Viru
 
 UK Situation at 11/03/20:            | UK Situation at 13/03/20
 :--------------------------------:|:--------------------------------:
-![110320 map](Images\Tab_map_110320.png) | ![130320 map](Images\Tab_map_130320.png)
+![110320 map](Images/Tab_map_110320.png) | ![130320 map](Images/Tab_map_130320.png)
 London Situation at 13/03/20 | London Situation at 14/04/20
-![130320 london](Images\london_130320.png) | ![140320 london](Images\london_140320.png)
+![130320 london](Images/london_130320.png) | ![140320 london](Images/london_140320.png)
 
 ## Extra Features
 
