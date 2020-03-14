@@ -44,3 +44,5 @@ Situation at 11/03/20:            | Situation at 13/03/20
 - Included a more detailed breakdown for London which is not only the epicenter of the outbreak in the UK, but also a major transportation hub.
 
 ## Improvements in Progress
+
+- Automate data collection: either data retrieval from URL or periodic scraping off website
