@@ -1,5 +1,7 @@
 # Coronavirus Map
 
+A virus with wanderlust
+
 ## Problem
 
 ![Boris](boris.png)
