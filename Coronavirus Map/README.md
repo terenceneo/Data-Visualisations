@@ -18,11 +18,11 @@ Some frontend is also required to allow the visualisations to be easily accessib
 
 **England data:**
 1. https://www.gov.uk/government/publications/coronavirus-covid-19-number-of-cases-in-england/coronavirus-covid-19-number-of-cases-in-england , CAA 11/03/2020 (data provider discontinued)
-2. https://www.gov.uk/government/publications/covid-19-track-coronavirus-cases , CAA 15/03/2020
+2. https://www.gov.uk/government/publications/covid-19-track-coronavirus-cases , CAA 16/03/2020
 
 **Scotland data:**
 
-1. https://www.gov.scot/coronavirus-covid-19/ , CAA 15/3/20
+1. https://www.gov.scot/coronavirus-covid-19/ , CAA 17/3/20
 
 **Wales data:**
 

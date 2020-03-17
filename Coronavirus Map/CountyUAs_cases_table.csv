@@ -1,151 +1,151 @@
-FID,GSS_CD,City,07-Mar,08-Mar,09-Mar,10-Mar,11-Mar,13-Mar,14-Mar,Number of confirmed cases,Country
-0,E09000002,Barking and Dagenham,0,0,0,1,0,4,5,7,England
-1,E09000003,Barnet,3,4,5,8,0,14,23,25,England
-2,E08000016,Barnsley,2,2,2,2,0,2,3,5,England
-3,E06000022,Bath and North East Somerset,0,0,0,0,2,0,1,2,England
-4,E06000055,Bedford,0,0,0,0,0,0,0,0,England
-5,E09000004,Bexley,0,0,0,0,0,1,5,7,England
-6,E08000025,Birmingham,1,1,1,1,1,2,5,8,England
-7,E06000008,Blackburn with Darwen,0,0,0,0,0,0,0,0,England
-8,E06000009,Blackpool,0,0,0,0,0,2,1,3,England
-9,E08000001,Bolton,1,2,3,3,1,3,3,3,England
-10,E06000058,"Bournemouth, Christchurch and Poole",0,2,2,3,0,3,4,5,England
-11,E06000036,Bracknell Forest,2,2,2,2,0,4,3,5,England
-12,E08000032,Bradford,1,1,1,1,1,4,4,6,England
-13,E09000005,Brent,1,3,3,3,3,4,14,20,England
-14,E06000043,Brighton and Hove,7,7,8,8,1,9,9,10,England
-15,E06000023,"Bristol, City of",1,2,2,2,0,5,4,5,England
-16,E09000006,Bromley,1,1,1,2,0,4,5,7,England
-17,E10000002,Buckinghamshire,1,1,1,2,3,7,13,15,England
-18,E08000002,Bury,4,3,3,3,1,3,3,3,England
-19,E08000033,Calderdale,0,0,0,0,0,2,3,5,England
-20,E10000003,Cambridgeshire,0,0,0,1,0,1,4,7,England
-21,E09000007,Camden,2,2,4,5,0,13,19,22,England
-22,E06000056,Central Bedfordshire,0,0,0,0,3,0,1,3,England
-23,E06000049,Cheshire East,0,0,0,0,0,0,1,1,England
-24,E06000050,Cheshire West and Chester,0,0,0,0,1,3,3,4,England
-25,E06000052,Cornwall and Isles of Scilly,2,3,4,4,0,5,4,5,England
-26,E06000047,County Durham,0,0,0,1,7,1,1,1,England
-27,E08000026,Coventry,1,3,2,3,2,3,3,2,England
-28,E09000008,Croydon,0,0,0,1,1,1,1,2,England
-29,E10000006,Cumbria,4,5,5,7,2,8,9,10,England
-30,E06000005,Darlington,0,0,0,0,1,0,2,2,England
-31,E06000015,Derby,0,0,0,0,0,1,3,5,England
-32,E10000007,Derbyshire,3,4,4,4,2,4,9,11,England
-33,E10000008,Devon,10,12,12,13,2,14,14,15,England
-34,E08000017,Doncaster,0,0,0,0,0,0,2,2,England
-35,E06000059,Dorset,0,0,0,0,0,1,1,1,England
-36,E08000027,Dudley,0,0,1,1,1,4,4,4,England
-37,E09000009,Ealing,5,5,5,5,1,8,18,20,England
-38,E06000011,East Riding of Yorkshire,0,0,0,0,3,1,2,3,England
-39,E10000011,East Sussex,0,0,0,0,2,0,1,1,England
-40,E09000010,Enfield,0,0,1,1,8,2,5,6,England
-41,E10000012,Essex,3,5,5,5,0,9,8,14,England
-42,E08000037,Gateshead,0,0,0,0,0,1,1,1,England
-43,E10000013,Gloucestershire,3,3,3,3,1,5,6,6,England
-44,E09000011,Greenwich,0,0,0,1,1,1,10,13,England
-45,E09000012,Hackney and City of London,2,2,2,3,0,5,11,13,England
-46,E06000006,Halton,0,0,0,0,0,0,0,0,England
-47,E09000013,Hammersmith and Fulham,1,2,2,2,2,5,10,19,England
-48,E10000014,Hampshire,2,8,8,10,5,20,41,53,England
-49,E09000014,Haringey,0,0,0,1,4,3,9,11,England
-50,E09000015,Harrow,1,1,1,1,0,2,10,12,England
-51,E06000001,Hartlepool,0,0,0,0,4,0,0,0,England
-52,E09000016,Havering,0,0,2,2,0,1,2,5,England
-53,E06000019,"Herefordshire, County of",0,0,0,1,0,1,1,1,England
-54,E10000015,Hertfordshire,8,13,13,16,3,20,21,32,England
-55,E09000017,Hillingdon,1,1,1,1,0,4,7,10,England
-56,E09000018,Hounslow,3,3,3,5,3,5,10,10,England
-57,E06000046,Isle of Wight,1,1,1,1,3,1,2,2,England
-58,E09000019,Islington,0,0,0,1,5,1,3,4,England
-59,E09000020,Kensington and Chelsea,6,8,8,13,4,21,27,40,England
-60,E10000016,Kent,2,4,4,5,1,11,11,11,England
-61,E06000010,"Kingston upon Hull, City of",1,1,1,1,0,1,1,0,England
-62,E09000021,Kingston upon Thames,1,1,1,1,0,2,2,2,England
-63,E08000034,Kirklees,0,0,0,0,1,1,1,3,England
-64,E08000011,Knowsley,0,0,0,0,3,0,0,0,England
-65,E09000022,Lambeth,2,3,3,4,0,9,25,26,England
-66,E10000017,Lancashire,2,4,4,4,6,6,6,6,England
-67,E08000035,Leeds,3,3,5,5,0,7,9,19,England
-68,E06000016,Leicester,0,0,0,0,1,2,2,2,England
-69,E10000018,Leicestershire,1,1,2,2,2,3,4,6,England
-70,E09000023,Lewisham,2,3,3,3,2,5,6,11,England
-71,E10000019,Lincolnshire,1,1,1,1,0,1,3,4,England
-72,E08000012,Liverpool,3,4,5,5,1,8,6,9,England
-73,E06000032,Luton,2,2,2,2,1,3,3,2,England
-74,E08000003,Manchester,5,5,5,5,6,7,9,9,England
-75,E06000035,Medway,2,2,2,2,2,2,2,2,England
-76,E09000024,Merton,1,1,1,2,0,4,5,9,England
-77,E06000002,Middlesbrough,0,0,0,0,1,0,0,0,England
-78,E06000042,Milton Keynes,1,1,1,2,2,2,2,4,England
-79,E08000021,Newcastle upon Tyne,3,3,4,4,3,5,5,4,England
-80,E09000025,Newham,0,0,0,0,1,0,1,3,England
-81,E10000020,Norfolk,0,0,0,0,0,0,0,1,England
-82,E06000012,North East Lincolnshire,0,0,0,0,0,0,0,0,England
-83,E06000013,North Lincolnshire,0,0,0,0,0,1,1,2,England
-84,E06000024,North Somerset,0,0,0,1,4,0,0,0,England
-85,E08000022,North Tyneside,1,1,1,1,1,3,2,2,England
-86,E10000023,North Yorkshire,0,0,0,0,0,4,2,7,England
-87,E10000021,Northamptonshire,2,4,4,5,1,6,8,9,England
-88,E06000057,Northumberland,0,0,0,0,5,0,0,0,England
-89,E06000018,Nottingham,2,2,2,2,0,5,5,5,England
-90,E10000024,Nottinghamshire,3,3,5,5,0,6,6,6,England
-91,E08000004,Oldham,2,2,4,4,1,6,6,6,England
-92,E10000025,Oxfordshire,4,5,5,7,8,22,21,24,England
-93,E06000031,Peterborough,1,1,1,1,0,1,1,1,England
-94,E06000026,Plymouth,0,0,0,0,3,1,1,2,England
-95,E06000044,Portsmouth,0,0,0,0,2,0,1,1,England
-96,E06000038,Reading,0,0,0,0,7,3,3,3,England
-97,E09000026,Redbridge,1,1,1,1,1,1,1,1,England
-98,E06000003,Redcar and Cleveland,0,0,0,0,5,0,1,1,England
-99,E09000027,Richmond upon Thames,0,0,0,1,1,1,2,2,England
-100,E08000005,Rochdale,0,0,0,0,1,2,2,2,England
-101,E08000018,Rotherham,0,0,0,1,4,1,2,2,England
-102,E06000017,Rutland,0,0,0,0,3,0,0,0,England
-103,E08000006,Salford,0,0,0,0,1,0,0,1,England
-104,E08000028,Sandwell,0,0,0,0,1,0,0,1,England
-105,E08000014,Sefton,0,0,0,0,2,1,1,1,England
-106,E08000019,Sheffield,0,0,0,0,3,3,13,12,England
-107,E06000051,Shropshire,0,0,0,1,5,3,3,4,England
-108,E06000039,Slough,0,0,0,1,1,2,2,3,England
-109,E08000029,Solihull,0,0,0,0,15,0,0,0,England
-110,E10000027,Somerset,1,2,2,2,1,1,2,2,England
-111,E06000025,South Gloucestershire,0,0,0,0,5,1,2,4,England
-112,E08000023,South Tyneside,0,0,0,0,3,0,0,0,England
-113,E06000045,Southampton,0,0,0,0,2,0,0,1,England
-114,E06000033,Southend-on-Sea,1,1,1,1,0,2,2,3,England
-115,E09000028,Southwark,1,3,5,8,1,13,28,30,England
-116,E08000013,St. Helens,0,0,0,0,1,0,1,1,England
-117,E10000028,Staffordshire,4,4,4,4,9,4,4,6,England
-118,E08000007,Stockport,0,0,0,0,4,2,3,3,England
-119,E06000004,Stockton-on-Tees,0,0,0,0,4,2,2,2,England
-120,E06000021,Stoke-on-Trent,0,0,0,0,1,0,0,0,England
-121,E10000029,Suffolk,0,0,1,1,3,1,1,3,England
-122,E08000024,Sunderland,0,0,1,1,6,1,1,1,England
-123,E10000030,Surrey,4,5,6,6,2,16,15,23,England
-124,E09000029,Sutton,0,0,1,2,1,6,6,7,England
-125,E06000030,Swindon,1,2,2,2,7,2,2,2,England
-126,E08000008,Tameside,0,1,1,1,4,1,2,3,England
-127,E06000020,Telford and Wrekin,0,0,0,0,13,0,0,0,England
-128,E06000034,Thurrock,0,0,0,0,0,0,0,1,England
-129,E06000027,Torbay,4,6,7,7,6,7,7,7,England
-130,E09000030,Tower Hamlets,0,1,1,4,4,6,8,9,England
-131,E08000009,Trafford,4,4,4,4,13,5,7,6,England
-132,E08000036,Wakefield,0,0,0,0,18,0,1,2,England
-133,E08000030,Walsall,0,0,0,0,5,1,1,5,England
-134,E09000031,Waltham Forest,0,0,1,1,5,1,2,2,England
-135,E09000032,Wandsworth,2,3,3,3,2,7,9,17,England
-136,E06000007,Warrington,0,0,0,0,1,1,1,1,England
-137,E10000031,Warwickshire,0,3,4,4,0,4,4,5,England
-138,E06000037,West Berkshire,0,0,0,0,5,1,3,3,England
-139,E10000032,West Sussex,3,3,3,3,0,4,6,7,England
-140,E09000033,Westminster,2,3,3,5,6,13,24,35,England
-141,E08000010,Wigan,3,3,3,3,9,3,3,3,England
-142,E06000054,Wiltshire,3,3,3,4,2,4,5,5,England
-143,E06000040,Windsor and Maidenhead,0,0,0,1,4,4,5,6,England
-144,E08000015,Wirral,1,1,1,1,1,5,5,5,England
-145,E06000041,Wokingham,2,3,3,3,10,4,6,5,England
-146,E08000031,Wolverhampton,0,0,2,3,4,8,9,8,England
-147,E10000034,Worcestershire,0,0,0,0,3,2,2,3,England
-148,E06000014,York,3,3,3,3,0,4,4,4,England
-,,Greater London,36,48,58,88,101,167,313,407,England
+FID,GSS_CD,City,07-Mar,08-Mar,09-Mar,10-Mar,11-Mar,13-Mar,14-Mar,15-Mar,Number of confirmed cases,Country
+0.0,E09000002,Barking and Dagenham,0,0,0,1,0,4,5,7,10.0,England
+1.0,E09000003,Barnet,3,4,5,8,0,14,23,25,25.0,England
+2.0,E08000016,Barnsley,2,2,2,2,0,2,3,5,4.0,England
+3.0,E06000022,Bath and North East Somerset,0,0,0,0,2,0,1,2,1.0,England
+4.0,E06000055,Bedford,0,0,0,0,0,0,0,0,0.0,England
+5.0,E09000004,Bexley,0,0,0,0,0,1,5,7,8.0,England
+6.0,E08000025,Birmingham,1,1,1,1,1,2,5,8,15.0,England
+7.0,E06000008,Blackburn with Darwen,0,0,0,0,0,0,0,0,0.0,England
+8.0,E06000009,Blackpool,0,0,0,0,0,2,1,3,2.0,England
+9.0,E08000001,Bolton,1,2,3,3,1,3,3,3,3.0,England
+10.0,E06000058,"Bournemouth, Christchurch and Poole",0,2,2,3,0,3,4,5,5.0,England
+11.0,E06000036,Bracknell Forest,2,2,2,2,0,4,3,5,4.0,England
+12.0,E08000032,Bradford,1,1,1,1,1,4,4,6,7.0,England
+13.0,E09000005,Brent,1,3,3,3,3,4,14,20,20.0,England
+14.0,E06000043,Brighton and Hove,7,7,8,8,1,9,9,10,10.0,England
+15.0,E06000023,"Bristol, City of",1,2,2,2,0,5,4,5,7.0,England
+16.0,E09000006,Bromley,1,1,1,2,0,4,5,7,11.0,England
+17.0,E10000002,Buckinghamshire,1,1,1,2,3,7,13,15,12.0,England
+18.0,E08000002,Bury,4,3,3,3,1,3,3,3,6.0,England
+19.0,E08000033,Calderdale,0,0,0,0,0,2,3,5,2.0,England
+20.0,E10000003,Cambridgeshire,0,0,0,1,0,1,4,7,12.0,England
+21.0,E09000007,Camden,2,2,4,5,0,13,19,22,22.0,England
+22.0,E06000056,Central Bedfordshire,0,0,0,0,3,0,1,3,4.0,England
+23.0,E06000049,Cheshire East,0,0,0,0,0,0,1,1,0.0,England
+24.0,E06000050,Cheshire West and Chester,0,0,0,0,1,3,3,4,4.0,England
+25.0,E06000052,Cornwall and Isles of Scilly,2,3,4,4,0,5,4,5,8.0,England
+26.0,E06000047,County Durham,0,0,0,1,7,1,1,1,1.0,England
+27.0,E08000026,Coventry,1,3,2,3,2,3,3,2,3.0,England
+28.0,E09000008,Croydon,0,0,0,1,1,1,1,2,4.0,England
+29.0,E10000006,Cumbria,4,5,5,7,2,8,9,10,10.0,England
+30.0,E06000005,Darlington,0,0,0,0,1,0,2,2,2.0,England
+31.0,E06000015,Derby,0,0,0,0,0,1,3,5,4.0,England
+32.0,E10000007,Derbyshire,3,4,4,4,2,4,9,11,12.0,England
+33.0,E10000008,Devon,10,12,12,13,2,14,14,15,20.0,England
+34.0,E08000017,Doncaster,0,0,0,0,0,0,2,2,2.0,England
+35.0,E06000059,Dorset,0,0,0,0,0,1,1,1,2.0,England
+36.0,E08000027,Dudley,0,0,1,1,1,4,4,4,6.0,England
+37.0,E09000009,Ealing,5,5,5,5,1,8,18,20,18.0,England
+38.0,E06000011,East Riding of Yorkshire,0,0,0,0,3,1,2,3,4.0,England
+39.0,E10000011,East Sussex,0,0,0,0,2,0,1,1,2.0,England
+40.0,E09000010,Enfield,0,0,1,1,8,2,5,6,8.0,England
+41.0,E10000012,Essex,3,5,5,5,0,9,8,14,20.0,England
+42.0,E08000037,Gateshead,0,0,0,0,0,1,1,1,1.0,England
+43.0,E10000013,Gloucestershire,3,3,3,3,1,5,6,6,6.0,England
+44.0,E09000011,Greenwich,0,0,0,1,1,1,10,13,18.0,England
+45.0,E09000012,Hackney and City of London,2,2,2,3,0,5,11,13,20.0,England
+46.0,E06000006,Halton,0,0,0,0,0,0,0,0,0.0,England
+47.0,E09000013,Hammersmith and Fulham,1,2,2,2,2,5,10,19,21.0,England
+48.0,E10000014,Hampshire,2,8,8,10,5,20,41,53,55.0,England
+49.0,E09000014,Haringey,0,0,0,1,4,3,9,11,16.0,England
+50.0,E09000015,Harrow,1,1,1,1,0,2,10,12,14.0,England
+51.0,E06000001,Hartlepool,0,0,0,0,4,0,0,0,0.0,England
+52.0,E09000016,Havering,0,0,2,2,0,1,2,5,5.0,England
+53.0,E06000019,"Herefordshire, County of",0,0,0,1,0,1,1,1,1.0,England
+54.0,E10000015,Hertfordshire,8,13,13,16,3,20,21,32,29.0,England
+55.0,E09000017,Hillingdon,1,1,1,1,0,4,7,10,13.0,England
+56.0,E09000018,Hounslow,3,3,3,5,3,5,10,10,12.0,England
+57.0,E06000046,Isle of Wight,1,1,1,1,3,1,2,2,1.0,England
+58.0,E09000019,Islington,0,0,0,1,5,1,3,4,11.0,England
+59.0,E09000020,Kensington and Chelsea,6,8,8,13,4,21,27,40,43.0,England
+60.0,E10000016,Kent,2,4,4,5,1,11,11,11,12.0,England
+61.0,E06000010,"Kingston upon Hull, City of",1,1,1,1,0,1,1,0,1.0,England
+62.0,E09000021,Kingston upon Thames,1,1,1,1,0,2,2,2,2.0,England
+63.0,E08000034,Kirklees,0,0,0,0,1,1,1,3,2.0,England
+64.0,E08000011,Knowsley,0,0,0,0,3,0,0,0,0.0,England
+65.0,E09000022,Lambeth,2,3,3,4,0,9,25,26,26.0,England
+66.0,E10000017,Lancashire,2,4,4,4,6,6,6,6,8.0,England
+67.0,E08000035,Leeds,3,3,5,5,0,7,9,19,14.0,England
+68.0,E06000016,Leicester,0,0,0,0,1,2,2,2,1.0,England
+69.0,E10000018,Leicestershire,1,1,2,2,2,3,4,6,5.0,England
+70.0,E09000023,Lewisham,2,3,3,3,2,5,6,11,17.0,England
+71.0,E10000019,Lincolnshire,1,1,1,1,0,1,3,4,4.0,England
+72.0,E08000012,Liverpool,3,4,5,5,1,8,6,9,6.0,England
+73.0,E06000032,Luton,2,2,2,2,1,3,3,2,3.0,England
+74.0,E08000003,Manchester,5,5,5,5,6,7,9,9,8.0,England
+75.0,E06000035,Medway,2,2,2,2,2,2,2,2,2.0,England
+76.0,E09000024,Merton,1,1,1,2,0,4,5,9,12.0,England
+77.0,E06000002,Middlesbrough,0,0,0,0,1,0,0,0,0.0,England
+78.0,E06000042,Milton Keynes,1,1,1,2,2,2,2,4,3.0,England
+79.0,E08000021,Newcastle upon Tyne,3,3,4,4,3,5,5,4,5.0,England
+80.0,E09000025,Newham,0,0,0,0,1,0,1,3,3.0,England
+81.0,E10000020,Norfolk,0,0,0,0,0,0,0,1,2.0,England
+82.0,E06000012,North East Lincolnshire,0,0,0,0,0,0,0,0,0.0,England
+83.0,E06000013,North Lincolnshire,0,0,0,0,0,1,1,2,1.0,England
+84.0,E06000024,North Somerset,0,0,0,1,4,0,0,0,2.0,England
+85.0,E08000022,North Tyneside,1,1,1,1,1,3,2,2,3.0,England
+86.0,E10000023,North Yorkshire,0,0,0,0,0,4,2,7,6.0,England
+87.0,E10000021,Northamptonshire,2,4,4,5,1,6,8,9,12.0,England
+88.0,E06000057,Northumberland,0,0,0,0,5,0,0,0,0.0,England
+89.0,E06000018,Nottingham,2,2,2,2,0,5,5,5,10.0,England
+90.0,E10000024,Nottinghamshire,3,3,5,5,0,6,6,6,14.0,England
+91.0,E08000004,Oldham,2,2,4,4,1,6,6,6,10.0,England
+92.0,E10000025,Oxfordshire,4,5,5,7,8,22,21,24,23.0,England
+93.0,E06000031,Peterborough,1,1,1,1,0,1,1,1,1.0,England
+94.0,E06000026,Plymouth,0,0,0,0,3,1,1,2,2.0,England
+95.0,E06000044,Portsmouth,0,0,0,0,2,0,1,1,1.0,England
+96.0,E06000038,Reading,0,0,0,0,7,3,3,3,3.0,England
+97.0,E09000026,Redbridge,1,1,1,1,1,1,1,1,2.0,England
+98.0,E06000003,Redcar and Cleveland,0,0,0,0,5,0,1,1,0.0,England
+99.0,E09000027,Richmond upon Thames,0,0,0,1,1,1,2,2,2.0,England
+100.0,E08000005,Rochdale,0,0,0,0,1,2,2,2,4.0,England
+101.0,E08000018,Rotherham,0,0,0,1,4,1,2,2,2.0,England
+102.0,E06000017,Rutland,0,0,0,0,3,0,0,0,0.0,England
+103.0,E08000006,Salford,0,0,0,0,1,0,0,1,1.0,England
+104.0,E08000028,Sandwell,0,0,0,0,1,0,0,1,4.0,England
+105.0,E08000014,Sefton,0,0,0,0,2,1,1,1,1.0,England
+106.0,E08000019,Sheffield,0,0,0,0,3,3,13,12,15.0,England
+107.0,E06000051,Shropshire,0,0,0,1,5,3,3,4,2.0,England
+108.0,E06000039,Slough,0,0,0,1,1,2,2,3,2.0,England
+109.0,E08000029,Solihull,0,0,0,0,15,0,0,0,1.0,England
+110.0,E10000027,Somerset,1,2,2,2,1,1,2,2,3.0,England
+111.0,E06000025,South Gloucestershire,0,0,0,0,5,1,2,4,5.0,England
+112.0,E08000023,South Tyneside,0,0,0,0,3,0,0,0,0.0,England
+113.0,E06000045,Southampton,0,0,0,0,2,0,0,1,1.0,England
+114.0,E06000033,Southend-on-Sea,1,1,1,1,0,2,2,3,3.0,England
+115.0,E09000028,Southwark,1,3,5,8,1,13,28,30,33.0,England
+116.0,E08000013,St. Helens,0,0,0,0,1,0,1,1,1.0,England
+117.0,E10000028,Staffordshire,4,4,4,4,9,4,4,6,7.0,England
+118.0,E08000007,Stockport,0,0,0,0,4,2,3,3,3.0,England
+119.0,E06000004,Stockton-on-Tees,0,0,0,0,4,2,2,2,2.0,England
+120.0,E06000021,Stoke-on-Trent,0,0,0,0,1,0,0,0,0.0,England
+121.0,E10000029,Suffolk,0,0,1,1,3,1,1,3,3.0,England
+122.0,E08000024,Sunderland,0,0,1,1,6,1,1,1,1.0,England
+123.0,E10000030,Surrey,4,5,6,6,2,16,15,23,25.0,England
+124.0,E09000029,Sutton,0,0,1,2,1,6,6,7,11.0,England
+125.0,E06000030,Swindon,1,2,2,2,7,2,2,2,2.0,England
+126.0,E08000008,Tameside,0,1,1,1,4,1,2,3,3.0,England
+127.0,E06000020,Telford and Wrekin,0,0,0,0,13,0,0,0,0.0,England
+128.0,E06000034,Thurrock,0,0,0,0,0,0,0,1,1.0,England
+129.0,E06000027,Torbay,4,6,7,7,6,7,7,7,7.0,England
+130.0,E09000030,Tower Hamlets,0,1,1,4,4,6,8,9,12.0,England
+131.0,E08000009,Trafford,4,4,4,4,13,5,7,6,7.0,England
+132.0,E08000036,Wakefield,0,0,0,0,18,0,1,2,3.0,England
+133.0,E08000030,Walsall,0,0,0,0,5,1,1,5,11.0,England
+134.0,E09000031,Waltham Forest,0,0,1,1,5,1,2,2,4.0,England
+135.0,E09000032,Wandsworth,2,3,3,3,2,7,9,17,20.0,England
+136.0,E06000007,Warrington,0,0,0,0,1,1,1,1,1.0,England
+137.0,E10000031,Warwickshire,0,3,4,4,0,4,4,5,4.0,England
+138.0,E06000037,West Berkshire,0,0,0,0,5,1,3,3,3.0,England
+139.0,E10000032,West Sussex,3,3,3,3,0,4,6,7,5.0,England
+140.0,E09000033,Westminster,2,3,3,5,6,13,24,35,37.0,England
+141.0,E08000010,Wigan,3,3,3,3,9,3,3,3,3.0,England
+142.0,E06000054,Wiltshire,3,3,3,4,2,4,5,5,7.0,England
+143.0,E06000040,Windsor and Maidenhead,0,0,0,1,4,4,5,6,6.0,England
+144.0,E08000015,Wirral,1,1,1,1,1,5,5,5,5.0,England
+145.0,E06000041,Wokingham,2,3,3,3,10,4,6,5,6.0,England
+146.0,E08000031,Wolverhampton,0,0,2,3,4,8,9,8,11.0,England
+147.0,E10000034,Worcestershire,0,0,0,0,3,2,2,3,3.0,England
+148.0,E06000014,York,3,3,3,3,0,4,4,4,4.0,England
+,,Greater London,36,48,58,88,101,167,313,407,480.0,England
