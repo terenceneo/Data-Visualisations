@@ -29,6 +29,7 @@ Some frontend is also required to allow the visualisations to be easily accessib
 1. https://www.walesonline.co.uk/news/wales-news/coronavirus-covid-19-advice-guidance-17901655 , CAA 11/3/20
 2. https://www.bbc.co.uk/news/uk-wales-51856495 , CAA 12/3/20
 3. https://phw.nhs.wales/news/public-health-wales-statement-on-novel-coronavirus-outbreak/ , CAA 13/3/20
+4. http://www.deeside.com/monday-update-public-health-wales-say-124-coronavirus-cases-have-been-reported-in-wales-30-more-than-yesterday/ , CAA 16/3/20
 
 ## Current Result
 

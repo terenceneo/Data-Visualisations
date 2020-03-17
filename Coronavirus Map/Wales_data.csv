@@ -1,14 +1,23 @@
-﻿City,11-Mar,12-Mar,Number of confirmed cases,Country
-Cardiff,2,3,4,Wales
-Swansea,2,3,5,Wales
-Pembrokeshire,2,2,2,Wales
-Neath Port Talbot,6,8,8,Wales
-Carmarthenshire,2,2,3,Wales
-Newport,1,1,2,Wales
-Wrexham,,1,1,Wales
-Powys,,2,3,Wales
-Monmouthshire,,1,2,Wales
-Caerphilly,,1,5,Wales
-Blaenau Gwent,,1,1,Wales
-Anglesey ,,,1,Wales
-Flintshire,,,1,Wales
+﻿City,11-Mar,12-Mar,13-Mar,15-Mar,Number of confirmed cases,Country
+Anglesey ,,,1,1,2,Wales
+Blaenau Gwent,,1,1,4,5,Wales
+Bridgend,,,,1,1,Wales
+Caerphilly,,1,5,11,14,Wales
+Cardiff,2,3,4,8,11,Wales
+Carmarthenshire,2,2,3,7,7,Wales
+Ceredigion,,,,1,1,Wales
+Conwy,,,,1,1,Wales
+Denbighshire,,,,0,0,Wales
+Flintshire,,,1,1,1,Wales
+Gwynedd,,,,0,0,Wales
+Merthyr Tydfil,,,,0,0,Wales
+Monmouthshire,,1,2,5,7,Wales
+Neath Port Talbot,6,8,8,11,11,Wales
+Newport,1,1,2,7,14,Wales
+Pembrokeshire,2,2,2,2,2,Wales
+Powys,,2,3,3,3,Wales
+Rhondda Cynon Taf,,,,2,2,Wales
+Swansea,2,3,5,22,23,Wales
+Torfaen,,,,2,2,Wales
+Vale of Glamorgan,,,,1,1,Wales
+Wrexham,,1,1,1,2,Wales
