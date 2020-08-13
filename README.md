@@ -1,6 +1,11 @@
 # Data Visualisations
 
  Collection of Data Visualisation Projects
+ 
+## FoodieBuddie: food and food influencer recommender
+
+- Interactive website [here](https://terenceneo.github.io/Social-Analytics/)
+- Repository [here](https://github.com/terenceneo/Social-Analytics)
 
 ## Coronavirus Map UK
 
